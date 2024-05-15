@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+  * {
+    @apply text-blue-50;
+  }
+  .play-btn {
+    @apply grid place-items-center text-lg font-medium w-32 h-32 rounded-full;
+    border: 1px solid !important;
+  }
+  .icon {
+    @apply w-20 h-20;
+  }
+}

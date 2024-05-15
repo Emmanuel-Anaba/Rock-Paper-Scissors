@@ -7,16 +7,16 @@ const App = () => {
     <div className="grid place-items-center h-svh bg-blue-700">
       <div className="grid md:grid-flow-col gap-10">
         <div className="play-btn">
-          <img className="icon" src={rock} alt="" />
-          <span className="text-base">Rock</span>
+          <img className="icon" src={rock} />
+          <span>Rock</span>
         </div>
         <div className="play-btn">
-          <img className="icon" src={paper} alt="" />
-          <span className="text-base">Paper</span>
+          <img className="icon" src={paper} />
+          <span>Paper</span>
         </div>
         <div className="play-btn">
-          <img className="icon" src={scissors} alt="" />
-          <span className="text-base">Scissors</span>
+          <img className="icon" src={scissors} />
+          <span>Scissors</span>
         </div>
       </div>
       <p className="text-center">
